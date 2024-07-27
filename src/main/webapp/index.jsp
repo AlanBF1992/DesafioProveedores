@@ -31,14 +31,16 @@
 		<h1>Proveedores</h1>
 		<table class="table" id="tblProveedor">
 			<thead>
-				<th scope="col" class="table-dark">id</th>
-				<th scope="col" class="table-dark">Nombre</th>
-				<th scope="col" class="table-dark">Rut</th>
-				<th scope="col" class="table-dark">Dirección</th>
-				<th scope="col" class="table-dark">Correo</th>
-				<th scope="col" class="table-dark">Teléfono</th>
-				<th scope="col" class="table-dark">Contacto</th>
-				<th scope="col" class="table-dark">Teléfono Contacto</th>
+				<tr>
+					<th scope="col" class="table-dark">id</th>
+					<th scope="col" class="table-dark">Nombre</th>
+					<th scope="col" class="table-dark">Rut</th>
+					<th scope="col" class="table-dark">Dirección</th>
+					<th scope="col" class="table-dark">Correo</th>
+					<th scope="col" class="table-dark">Teléfono</th>
+					<th scope="col" class="table-dark">Contacto</th>
+					<th scope="col" class="table-dark">Teléfono Contacto</th>
+				</tr>
 			</thead>
 			
 			<tbody>
@@ -58,10 +60,10 @@
 		</table>
 	</section>
 </main>
- <script
-			  src="https://code.jquery.com/jquery-3.7.1.min.js"
-			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-			  crossorigin="anonymous"></script>
+<script
+ src="https://code.jquery.com/jquery-3.7.1.min.js"
+ integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+ crossorigin="anonymous"></script>
 <script src="//cdn.datatables.net/2.1.2/js/dataTables.min.js"></script>
 <script>
 $(document).ready(() => {
